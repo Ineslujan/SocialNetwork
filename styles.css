@@ -15,30 +15,28 @@ body {
 
 }
 
-@media screen and (max-width: 414px) {
-    body{
 
-    }
-    /* HEADER */
-    .header{
-        padding: 0 18px;
-        height: 96px;
-        width: 100%;
-        background-color: #2C3E50;
-    }
-    .logo{
-        font-size: 24px;
-        color: #fff;
-        padding: 9px 0;
-        text-align: center;
-    }
-    .menu ul{
-        display: flex;
-        list-style: none;
-        justify-content: space-around;
-    }
-    .menu a, .menu a:visited{
-        color: rgba(255, 255, 255, .67);
-    }
-
+/* HEADER */
+.header{
+    padding: 0 18px;
+    height: 96px;
+    width: 100%;
+    background-color: #2C3E50;
+}
+.logo{
+    font-size: 24px;
+    color: #fff;
+    padding: 9px 0;
+    text-align: center;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+.menu a, .menu a:visited{
+    color: rgba(255, 255, 255, .67);
+}
+.menu li .active{
+    color: rgba(255, 255, 255, 1);
 }
