@@ -1,20 +1,24 @@
+/* GENERAL */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    text-decoration: none;
-    font-weight: 400;
-
 }
-
 body {
     font-size: 14px;
     line-height: 1.523;
     font-family: Roboto, Helvetica, sans-serif;
     color: rgba(0, 0, 0, .6);
-
+    background-color: #F1F1F1;
+    font-weight: 400;
 }
-
+a, a:visited{
+    color: rgba(0, 0, 0, .67);
+    text-decoration: none;
+}
+.left, .articles, .right{
+    margin: 0 18px;
+}
 
 /* HEADER */
 .header{
@@ -28,6 +32,7 @@ body {
     color: #fff;
     padding: 9px 0;
     text-align: center;
+    font-weight: 400;
 }
 .menu ul{
     display: flex;
@@ -39,4 +44,36 @@ body {
 }
 .menu li .active{
     color: rgba(255, 255, 255, 1);
+}
+
+/* ASIDE LEFT MENU */
+.left li{
+    width: 50%;
+    height: 26px;
+    border: solid 1px #dbdbdb00;
+    border-radius: 5px;
+    list-style: none;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+.left .active{
+    border: solid 1px #DBDBDB;
+    border-radius: 5px;
+    background-color: #fff;
+    font-weight: 700;
+}
+.left .active a{
+    color: rgb(0, 0, 0);
+}
+.left ul{
+    padding: 13px 0;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.left ul li img{
+    margin: 0 25px 0 9px;
 }
