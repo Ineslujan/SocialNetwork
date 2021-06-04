@@ -77,3 +77,53 @@ a, a:visited{
 .left ul li img{
     margin: 0 25px 0 9px;
 }
+/* ARTICLES */
+/* HEADER */
+.articles article{
+    border: solid 1px #DBDBDB;
+    border-radius: 5px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+.articles header{ /* centre verticalement les éléments */
+    height: 85px;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+}
+.articles header p{
+    font-size: 12px;
+    color: rgba(0, 0, 0, .38);
+}
+.articles header img{ /* rend l'image ronde et non déformée */
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    margin-right: 8px;
+}
+/* IMAGE ARTICLE */
+.imagee{ /* rogne l'image qui est à l'intérieur */
+    overflow: hidden;
+}
+/* TEXTE ARTICLE */
+.text{
+    padding: 16px 8px;
+}
+/* FOOTER */
+.articles footer{
+    height: 43px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: solid 1px #DBDBDB;
+    background-color: #fbfbfb;
+}
+.articles footer div{
+    display: flex;
+    padding: 0 8px;
+}
