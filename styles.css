@@ -178,3 +178,12 @@ hr{
     font-size: 12px;
     color: #000;
 }
+
+@media screen and (min-width: 414px) {
+    .articles{
+        max-width: 500px;
+        margin: auto;
+        padding: 0 18px;
+    }
+}
+
