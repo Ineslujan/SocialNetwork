@@ -1,4 +1,4 @@
-# Réseau social responsive
+# Social Network responsive
 
 This website is a single responsive page. 
 
